@@ -1,0 +1,70 @@
+section,
+header,
+footer {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+$font: "Inconsolata";
+body {
+    width: 100%;
+    font-family: $font, sans-serif;
+    margin: 0;
+    margin-top: 0;
+    // padding: 0 auto;
+    // padding: 20px 0 0 20px;
+    text-align: left;
+    background: #26292C;
+}
+p, h1, h2, h3, h4, h5, h6, b, i, span {
+    font-size: 1.05rem;
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3, h4, h5, h6, i, span {
+    font-weight: 400;
+}
+b {
+    font-weight: 700;
+}
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.white {
+    color: #F8F8F1;
+}
+.red {
+    color: #F6315E;
+}
+.green {
+    color: #A2E200;
+}
+.blue {
+    color: #91C8EE;
+}
+.yellow {
+    color: #E7DC63;
+}
+.purple {
+    color: #AB80FF;
+}
+
+.tab {
+    margin-left: 20px;
+}
+.spacer {
+    height: 1.05rem;
+}
+.left {
+    float: left;
+}
